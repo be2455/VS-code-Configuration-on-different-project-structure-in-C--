@@ -3,7 +3,9 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}"
+                "${default}",
+                "${workspaceFolder}/include/**",
+                "C:/Users/user/Desktop/include/eigen-3.4.0"
             ],
             "defines": [
                 "_DEBUG",
